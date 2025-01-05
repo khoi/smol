@@ -8,3 +8,7 @@ wheels/
 
 # Virtual environments
 .venv
+*.swp
+
+# notebook
+.ipynb_checkpoints

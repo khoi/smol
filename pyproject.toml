@@ -5,6 +5,16 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "accelerate>=1.2.1",
+    "datasets>=3.2.0",
+    "faiss-cpu>=1.9.0.post1",
+    "jupyterlab>=4.3.4",
+    "langchain>=0.3.14",
+    "langchain-community>=0.3.14",
+    "pandas>=2.2.3",
+    "rank-bm25>=0.2.2",
+    "sentence-transformers>=3.3.1",
     "smolagents>=1.0.0",
+    "sqlalchemy>=2.0.36",
     "torch>=2.5.1",
 ]
